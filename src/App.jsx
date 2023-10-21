@@ -76,7 +76,7 @@ function App() {
         <section className="bottomInfoCtn">
           <img
             className="bottomFoodTruck"
-            src="/src/assets/food_truck.png"
+            src="/assets/food_truck.png"
             alt="food_truck_image"
           />
           <div>
