@@ -77,7 +77,7 @@
 }
 
 .pizzaImage {
-  background-image: url("src/assets/pizza.jpg");
+  background-image: url("/src/assets/pizza.jpg");
   background-size: cover;
   background-position: center;
   width: 100vw;
