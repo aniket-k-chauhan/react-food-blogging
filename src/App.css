@@ -247,10 +247,20 @@
 
   .bottomInfoCopyights {
     align-self: center;
+    color: #828B9C;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 0.54763rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.00794rem; /* 366.676% */
   }
 
   .socialMedialIcons {
+    display: flex;
     align-self: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
   }
 }
 

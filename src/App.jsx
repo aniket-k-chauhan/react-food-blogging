@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/Card/Card";
+import SocialMediaIcon from "./components/SocialMediaIcon/SocialMediaIcon";
 
 function App() {
   return (
@@ -96,7 +97,11 @@ function App() {
             <div className="bottomInfoText">Contact Us</div>
           </div>
           <div className="bottomInfoCopyights">© 2022 Food Truck Example</div>
-          <div className="socialMedialIcons">Social Media Icons</div>
+          <div className="socialMedialIcons">
+            <SocialMediaIcon iconUrl="/assets/insta_icon.svg" />
+            <SocialMediaIcon iconUrl="/assets/twitter_icon.svg" />
+            <SocialMediaIcon iconUrl="/assets/facebook_icon.svg" />
+          </div>
         </section>
       </div>
     </>
