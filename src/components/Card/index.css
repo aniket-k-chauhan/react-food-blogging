@@ -57,5 +57,26 @@
             letter-spacing: 0.02063rem;
         }
     }
+}
 
+@media (min-width: 1000px) {
+    .cardCtn {
+        .cardTitle {
+            font-size: 1.3125rem;
+        }
+    
+        .cardContent {
+            font-size: 0.9375rem;
+            line-height: 1.6875rem; /* 180% */
+            letter-spacing: -0.01875rem;
+        }
+    
+        .cardBtnCtn {
+            .cardBtn {
+                font-size: 1.02781rem;
+                line-height: 2.22456rem; /* 216.441% */
+                letter-spacing: 0.03081rem;
+            }
+        }
+    }
 }

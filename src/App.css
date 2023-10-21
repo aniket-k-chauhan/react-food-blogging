@@ -1,56 +1,5 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
-/* .container {
-  display: flex;
-  flex-direction: column;
-} */
-
-
-.contentWrapper {
-  /* margin-inline: auto; */
-  /* width: 312px; */
-  --left-right-padding: 2rem;
+.visible {
+  display: none;
 }
 
 .redCurve {
@@ -61,7 +10,6 @@
   position: absolute;
   right: 0;
   z-index: 1;
-
 }
 
 .inTouchCtn {
@@ -98,6 +46,7 @@
     line-height: 3rem; 
   }
 
+  
   .tagSubline {
     margin: 1rem 0;
     color: var(--body);
@@ -108,11 +57,11 @@
     font-weight: 400;
     line-height: 1.125rem;
   }
-
+  
   .exploreNowBtnCtn {
     text-align: center;
     margin: 2rem;
-
+    
     .exploreNowBtn {
       padding: 0.75rem 1.875rem;
       border-radius: 1.875rem;
@@ -205,7 +154,7 @@
     scroll-snap-type: x mandatory;
     padding: 0 var(--left-right-padding);
   }
-
+  
   .cardGrid > * {
     scroll-snap-align: start;
   }
@@ -213,17 +162,9 @@
 
 .bottomInfoCtn {
   background: var(--bottom-bg);
-  padding: 0 var(--left-right-padding);
+  padding: 4rem var(--left-right-padding);
   display: flex;
   flex-direction: column;
-
-  .bottomFoodTruck {
-    align-self: center;
-    object-fit: cover;
-    margin: 4rem 0 2.5rem;
-    width: 4.6875rem;
-    height: 3.625rem;
-  }
 
   .bottomInfoTitle{
     color: var(--primary, #0E2368);
@@ -260,11 +201,143 @@
     display: flex;
     align-self: center;
     gap: 1rem;
-    margin-bottom: 3rem;
   }
 }
 
 .textRed {
   color: var(--red-color);
+}
+
+.foodTruck {
+  align-self: center;
+  object-fit: cover;
+  margin-bottom: 2.5rem;
+  width: 4.6875rem;
+  height: 3.625rem;
+}
+
+@media (min-width: 1000px) {
+  .flexCtn {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  .redCurve {
+    background-image: url("/src/assets/red_curve_large.svg");
+    width: 42rem;
+    height: 52.4375rem;
+  }
+
+  .inTouchCtn {
+    border-radius: 2.3125rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2.25rem; /* 225% */
+    letter-spacing: 0.03rem;
+  }
+
+  .pizzaImage {
+    width: 80vh;
+    height: 100vh;
+  }
+
+  .pizzaTextCtn {
+    height: 100vh;
+
+    .tagline {
+      font-size: 3.875rem;
+      font-weight: 700;
+      line-height: 4.3125rem; /* 111.29% */
+    }
+
+    .tagSubline {
+      font-size: 1.02781rem;
+      line-height: 1.713rem; /* 166.667% */
+    }
+
+    .exploreNowBtnCtn {
+      .exploreNowBtn {
+        padding: 1.5rem 2rem;
+        border-radius: 3rem;
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: 2.25rem; /* 200% */
+        letter-spacing: 0.01125rem;
+      }
+    }
+  }
+
+  .aboutUsCtn {
+    .aboutUsTitle {
+      font-size: 2.8125rem;
+      line-height: 1.6875rem; /* 60% */
+    }
+  
+    .aboutUsDesc {
+      font-size: 0.9375rem;
+      line-height: 1.6875rem; /* 180% */
+    }
+  
+    .readMoreBtn {
+      padding: 0.1875rem 1.625rem;
+      border-radius: 1.3125rem;
+      font-size: 1rem;
+      line-height: 2.25rem; /* 225% */
+      letter-spacing: 0.03rem;
+    }
+  }
+
+  .articlesCtn{
+    .articleCtnTitle {
+      margin-bottom: 4rem;
+      font-size: 3.5rem;
+      line-height: 2.625rem; /* 75% */
+      letter-spacing: 0.14rem;
+    }
+  
+    .cardGrid {
+      grid-template-rows: repeat(1, 1fr);
+      grid-auto-columns: 30%;
+    }
+  }
+
+  .bottomInfoCtn {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+
+    .bottomInfoTitle{
+      margin-bottom: 1.5rem;
+      font-size: 1.17769rem;
+      letter-spacing: 0.03531rem;
+    }
+  
+    .bottomInfoText {
+      font-size: 0.916rem;
+      line-height: 1.43944rem;
+    }
+  
+    .bottomInfoCopyights {
+      font-size: 0.916rem;
+      line-height: 1.57025rem;
+    }
+  
+    .socialMedialIcons {
+      display: flex;
+      align-self: center;
+      gap: 1rem;
+    }
+  }
+
+  .foodTruck {
+    width: 10.0625rem;
+    height: 7.8125rem;
+  }
 }
 

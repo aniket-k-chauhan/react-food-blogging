@@ -2,3 +2,10 @@
     width: 0.75rem;
     height: 0.75019rem;
 }
+
+@media (min-width: 1000px) {
+    .socialMediaIcon {
+        width: 1.3125rem;
+        height: 1.3125rem;
+    }
+}
