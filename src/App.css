@@ -54,7 +54,7 @@
 }
 
 .redCurve {
-  background-image: url("src/assets/red_curve.svg");
+  background-image: url("/src/assets/red_curve.svg");
   background-repeat: no-repeat;
   width: 375px;
   height: 426px;
