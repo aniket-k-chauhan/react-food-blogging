@@ -40,32 +40,32 @@ function App() {
           <div className="cardGridCtn">
             <div className="cardGrid">
               <Card
-                image="/src/assets/grilled-tomatoes.jpg"
+                image="/assets/grilled-tomatoes.jpg"
                 title="Grilled Tomatoes at Home"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
               <Card
-                image="/src/assets/snacks-for-travel.jpg"
+                image="/assets/snacks-for-travel.jpg"
                 title="Snacks for Travel"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
               <Card
-                image="/src/assets/post-workout-recipes.jpg"
+                image="/assets/post-workout-recipes.jpg"
                 title="Post-workout Recipes"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
               <Card
-                image="/src/assets/grill-corn.jpg"
+                image="/assets/grill-corn.jpg"
                 title="How To Grill Corn"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
               <Card
-                image="/src/assets/crunchwrap-supreme.jpg"
+                image="/assets/crunchwrap-supreme.jpg"
                 title="Crunchwrap Supreme"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
               <Card
-                image="/src/assets/broccoli-cheeses-soup.jpg"
+                image="/assets/broccoli-cheeses-soup.jpg"
                 title="Broccoli Cheese Soup"
                 content="PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...."
               />
