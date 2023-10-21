@@ -1,0 +1,55 @@
+.cardCtn {
+    border-radius: 1.67331rem;
+    border: 0.876px solid var(--dark-grey);
+    padding: 3rem 2rem;
+    text-align: center;
+
+    .cardImage {
+        object-fit: cover;
+        width: 12.75rem;
+        height: 10.375rem;
+        border-radius: 1.6875rem;
+    }
+
+    .cardTitle {
+        margin: 1.5rem 0 1rem;
+        color: var(--primary, #0E2368);
+        font-family: var(--font-family);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.1875rem;
+        letter-spacing: 0.05rem;
+    }
+
+    .cardContent {
+        margin-bottom: 1rem;
+        text-align: justify;
+        color: var(--body, #444957);
+        font-family: var(--font-family);
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.375rem; /* 183.333% */
+        letter-spacing: -0.0075rem;
+    }
+
+    .cardBtnCtn {
+        .cardBtn {
+            width: 7.375rem;
+            height: 1.625rem;
+            padding: 0.25rem 2.0625rem;
+            border-radius: 1.6875rem;
+            border: 2px solid var(--article-color);
+            color: var(--article-color);
+
+            font-family: var(--font-family);
+            font-size: 0.6875rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2.875rem; /* 418.182% */
+            letter-spacing: 0.02063rem;
+        }
+    }
+
+}
